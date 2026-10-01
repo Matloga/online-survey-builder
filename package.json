@@ -1,0 +1,15 @@
+{
+  "name": "online-survey-builder",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Create surveys, collect responses and analyse results. React + Express + SQL Server.",
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "migrate": "npm --prefix server run migrate",
+    "seed": "npm --prefix server run seed",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "lint": "npm --prefix server run lint && npm --prefix client run lint",
+    "build": "npm --prefix client run build"
+  }
+}

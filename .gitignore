@@ -1,0 +1,15 @@
+node_modules/
+.env
+.env.local
+dist/
+build/
+*.log
+npm-debug.log*
+.vscode/
+.idea/
+coverage/
+.DS_Store
+Thumbs.db
+*.xlsx
+*.pdf
+exports/
